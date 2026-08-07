@@ -1,4 +1,4 @@
-# Are.na Screen Saver Roadmap
+# Are.na Screensaver Roadmap
 
 # MVP
 

@@ -1,6 +1,6 @@
-# Are.na Screen Saver
+# Are.na Screensaver
 
-A macOS screen saver that shows images from public [Are.na](https://www.are.na/) channels using the [Are.na v3 API](https://www.are.na/developers/explore) and the native [Screen Saver framework](https://developer.apple.com/documentation/screensaver).
+A macOS screensaver that shows images from public [Are.na](https://www.are.na/) channels using the [Are.na v3 API](https://www.are.na/developers/explore) and the native [Screen Saver framework](https://developer.apple.com/documentation/screensaver).
 
 ## Features
 
@@ -11,7 +11,7 @@ A macOS screen saver that shows images from public [Are.na](https://www.are.na/)
 
 ## How it works
 
-The screen saver loads image blocks from the Are.na API. It mixes selected channels, avoids recent repeats, and prepares each image before display.
+The screensaver loads image blocks from the Are.na API. It mixes selected channels, avoids recent repeats, and prepares each image before display.
 
 It saves channel data and images for playback during brief network interruptions.
 
@@ -22,12 +22,11 @@ It saves channel data and images for playback during brief network interruptions
 - macOS 13 or later
 - [Xcode](https://apps.apple.com/us/app/xcode/id497799835) with the macOS SDK
 
-### Install the screen saver for the current user:
+### Install the screensaver for the current user:
 
 1. Clone this repository and run `./scripts/install.sh`
 2. Open **System Settings > Screen Saver**
 3. Select **Are.na** in the **Other** section
-4. Open the screen-saver settings
 
 The install script builds a universal bundle for Apple silicon and Intel Macs, installing the bundle here:
 
@@ -52,7 +51,7 @@ Start the preview app:
 ./scripts/preview.sh
 ```
 
-The preview app uses the same view and settings as the screen saver. Run the command again after each code change.
+The preview app uses the same view and settings as the screensaver. Run the command again after each code change.
 
 Run the test suite:
 
@@ -74,4 +73,4 @@ Then sign out and sign in again, or restart the Mac.
 
 ## License
 
-Are.na Screen Saver is available under the [MIT License](LICENSE).
+Are.na Screensaver is available under the [MIT License](LICENSE).
