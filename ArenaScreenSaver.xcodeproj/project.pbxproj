@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* ArenaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* ArenaAPI.swift */; };
+		A10000000000000000000002 /* ArenaPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* ArenaPreferences.swift */; };
+		A10000000000000000000003 /* ImageCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* ImageCanvasView.swift */; };
+		A10000000000000000000004 /* ConfigurationWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* ConfigurationWindowController.swift */; };
+		A10000000000000000000005 /* ArenaScreenSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* ArenaScreenSaverView.swift */; };
+		A10000000000000000000006 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* ScreenSaver.framework */; };
+		B10000000000000000000001 /* ArenaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* ArenaAPI.swift */; };
+		B10000000000000000000002 /* ArenaPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* ArenaPreferences.swift */; };
+		B10000000000000000000003 /* ImageCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* ImageCanvasView.swift */; };
+		B10000000000000000000004 /* ConfigurationWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* ConfigurationWindowController.swift */; };
+		B10000000000000000000005 /* ArenaScreenSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* ArenaScreenSaverView.swift */; };
+		B10000000000000000000006 /* PreviewAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* PreviewAppDelegate.swift */; };
+		B10000000000000000000007 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* ScreenSaver.framework */; };
+		B10000000000000000000008 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000003 /* main.swift */; };
+		C10000000000000000000001 /* ArenaRotationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000001 /* ArenaRotationEngine.swift */; };
+		C10000000000000000000002 /* ArenaRotationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000001 /* ArenaRotationEngine.swift */; };
+		D10000000000000000000001 /* ArenaCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000001 /* ArenaCache.swift */; };
+		D10000000000000000000002 /* ArenaCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000001 /* ArenaCache.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* ArenaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaAPI.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* ArenaPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaPreferences.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* ImageCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCanvasView.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* ConfigurationWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationWindowController.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* ArenaScreenSaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaScreenSaverView.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* ArenaScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArenaScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000007 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		A20000000000000000000008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20000000000000000000001 /* PreviewAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAppDelegate.swift; sourceTree = "<group>"; };
+		B20000000000000000000002 /* ArenaPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArenaPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20000000000000000000003 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C20000000000000000000001 /* ArenaRotationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaRotationEngine.swift; sourceTree = "<group>"; };
+		D20000000000000000000001 /* ArenaCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaCache.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000006 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000007 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000002 /* Sources */,
+				B40000000000000000000001 /* ArenaPreview */,
+				A20000000000000000000008 /* Info.plist */,
+				A40000000000000000000003 /* Frameworks */,
+				A40000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* ArenaAPI.swift */,
+				A20000000000000000000002 /* ArenaPreferences.swift */,
+				A20000000000000000000003 /* ImageCanvasView.swift */,
+				A20000000000000000000004 /* ConfigurationWindowController.swift */,
+				A20000000000000000000005 /* ArenaScreenSaverView.swift */,
+				C20000000000000000000001 /* ArenaRotationEngine.swift */,
+				D20000000000000000000001 /* ArenaCache.swift */,
+			);
+			path = Sources/ArenaScreenSaver;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000007 /* ScreenSaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000006 /* ArenaScreenSaver.saver */,
+				B20000000000000000000002 /* ArenaPreview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B40000000000000000000001 /* ArenaPreview */ = {
+			isa = PBXGroup;
+			children = (
+				B20000000000000000000001 /* PreviewAppDelegate.swift */,
+				B20000000000000000000003 /* main.swift */,
+			);
+			path = Sources/ArenaPreview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* ArenaScreenSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90000000000000000000002 /* Build configuration list for PBXNativeTarget "ArenaScreenSaver" */;
+			buildPhases = (
+				A30000000000000000000002 /* Sources */,
+				A30000000000000000000001 /* Frameworks */,
+				A30000000000000000000003 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = ArenaScreenSaver;
+			productName = ArenaScreenSaver;
+			productReference = A20000000000000000000006 /* ArenaScreenSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B50000000000000000000001 /* ArenaPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90000000000000000000001 /* Build configuration list for PBXNativeTarget "ArenaPreview" */;
+			buildPhases = (
+				B30000000000000000000002 /* Sources */,
+				B30000000000000000000001 /* Frameworks */,
+				B30000000000000000000003 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = ArenaPreview;
+			productName = ArenaPreview;
+			productReference = B20000000000000000000002 /* ArenaPreview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A50000000000000000000001 = { CreatedOnToolsVersion = 26.0; };
+					B50000000000000000000001 = { CreatedOnToolsVersion = 26.0; };
+				};
+			};
+			buildConfigurationList = A90000000000000000000001 /* Build configuration list for PBXProject "ArenaScreenSaver" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = A40000000000000000000001;
+			productRefGroup = A40000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* ArenaScreenSaver */,
+				B50000000000000000000001 /* ArenaPreview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A30000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* ArenaAPI.swift in Sources */,
+				A10000000000000000000002 /* ArenaPreferences.swift in Sources */,
+				A10000000000000000000003 /* ImageCanvasView.swift in Sources */,
+				A10000000000000000000004 /* ConfigurationWindowController.swift in Sources */,
+				A10000000000000000000005 /* ArenaScreenSaverView.swift in Sources */,
+				C10000000000000000000001 /* ArenaRotationEngine.swift in Sources */,
+				D10000000000000000000001 /* ArenaCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000001 /* ArenaAPI.swift in Sources */,
+				B10000000000000000000002 /* ArenaPreferences.swift in Sources */,
+				B10000000000000000000003 /* ImageCanvasView.swift in Sources */,
+				B10000000000000000000004 /* ConfigurationWindowController.swift in Sources */,
+				B10000000000000000000005 /* ArenaScreenSaverView.swift in Sources */,
+				B10000000000000000000006 /* PreviewAppDelegate.swift in Sources */,
+				B10000000000000000000008 /* main.swift in Sources */,
+				C10000000000000000000002 /* ArenaRotationEngine.swift in Sources */,
+				D10000000000000000000002 /* ArenaCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A80000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A80000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A80000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_LANGUAGE = en;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks";
+				MACH_O_TYPE = mh_bundle;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arena.screensaver;
+				PRODUCT_NAME = ArenaScreenSaver;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		A80000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_LANGUAGE = en;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks";
+				MACH_O_TYPE = mh_bundle;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arena.screensaver;
+				PRODUCT_NAME = ArenaScreenSaver;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		B80000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_LANGUAGE = en;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Are.na Preview";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arena.screensaver.preview;
+				PRODUCT_NAME = ArenaPreview;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+			};
+			name = Debug;
+		};
+		B80000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_LANGUAGE = en;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Are.na Preview";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arena.screensaver.preview;
+				PRODUCT_NAME = ArenaPreview;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90000000000000000000001 /* Build configuration list for PBXProject "ArenaScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000001 /* Debug */,
+				A80000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90000000000000000000002 /* Build configuration list for PBXNativeTarget "ArenaScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000003 /* Debug */,
+				A80000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90000000000000000000001 /* Build configuration list for PBXNativeTarget "ArenaPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80000000000000000000001 /* Debug */,
+				B80000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60000000000000000000001 /* Project object */;
+}
