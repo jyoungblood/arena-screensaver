@@ -71,3 +71,7 @@ rm -rf "$HOME/Library/Screen Savers/ArenaScreenSaver.saver"
 ```
 
 Then sign out and sign in again, or restart the Mac.
+
+## License
+
+Are.na Screen Saver is available under the [MIT License](LICENSE.md).
